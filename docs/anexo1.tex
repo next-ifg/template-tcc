@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ANEXOS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Tabela ASCII}%
+\label{chap:anex-tabela-ascii}
+
+Abaixo está a tabela ASCII, do inglês \emph{American Standard Code for
+  Information Interchange}, é um código de caracteres de 7 bits. Pode ser
+dividida entre caracteres de controle (código decimal 0 a 31) e caracteres
+imprimíveis (código decimal de 32 a 127).
+
+{ \footnotesize%
+
+  \begin{longtable}[c]{c c c l}
+    \caption{Tabela ASCII de códigos de controle.}
+    \label{tab:tabela-ascii-ctrl}
+    \\
+  
+    \hline %
+    \hline %
+    \textbf{DEC} & \textbf{HEX} & \textbf{Simbolo} & \textbf{Descrição}
+    \\
+    \hline %
+    \hline %
+
+    0 & 00 & NUL & Caractere nulo \emph{Null char} \\ \hline
+    1 & 01 & SOH & Inicio do cabeçalho \emph{Start of Heading} \\ \hline
+    2 & 02 & STX & Inicio do texto \emph{Start of Text} \\ \hline
+    3 & 03 & ETX & Fim do texto \emph{End of Text} \\ \hline
+    4 & 04 & EOT & Fim da transmição \emph{End of Transmission} \\ \hline
+    5 & 05 & ENQ & Enquiry \\ \hline
+    6 & 06 & ACK & Acknowledgment \\ \hline
+    7 & 07 & BEL & Bell \\ \hline
+    8 & 08 & BS & Back Space \\ \hline
+    9 & 09 & HT & Horizontal Tab \\ \hline
+    10 & 0A & LF & Line Feed \\ \hline
+    11 & 0B & VT & Vertical Tab \\ \hline
+    12 & 0C & FF & Form Feed \\ \hline
+    13 & 0D & CR & Carriage Return \\ \hline
+    14 & 0E & SO & Shift Out / X-On \\ \hline
+    15 & 0F & SI & Shift In / X-Off \\ \hline
+    16 & 10 & DLE & Data Line Escape \\ \hline
+    17 & 11 & DC1 & Device Control 1 (oft. XON) \\ \hline
+    18 & 12 & DC2 & Device Control 2 \\ \hline
+    19 & 13 & DC3 & Device Control 3 (oft. XOFF) \\ \hline
+    20 & 14 & DC4 & Device Control 4 \\ \hline
+    21 & 15 & NAK & Negative Acknowledgement \\ \hline
+    22 & 16 & SYN & Synchronous Idle \\ \hline
+    23 & 17 & ETB & End of Transmit Block \\ \hline
+    24 & 18 & CAN & Cancel \\ \hline
+    25 & 19 & EM & End of Medium \\ \hline
+    26 & 1A & SUB & Substitute \\ \hline
+    27 & 1B & ESC & Escape \\ \hline
+    28 & 1C & FS & File Separator \\ \hline
+    29 & 1D & GS & Group Separator \\ \hline
+    30 & 1E & RS & Record Separator \\ \hline
+    31 & 1F & US & Unit Separator \\ \hline
+
+  \end{longtable}
+
+  \begin{table}[H]
+    \caption{Tabela ASCII de códigos imprimíveis.}
+    \label{tab:tabela-ascii-print}
+    \centering
+    
+    \begin{minipage}[t]{.32\textwidth}
+      \begin{tabular}{ccc}
+        \hline\hline\textbf{DEC} & \textbf{HEX} & \textbf{Simbolo} \\\hline\hline
+        32  & 20 & \textvisiblespace{} \\ \hline
+        33  & 21 & !                   \\ \hline
+        34  & 22 & "                   \\ \hline
+        35  & 23 & \#                  \\ \hline
+        36  & 24 & \$                  \\ \hline
+        37  & 25 & \%                  \\ \hline
+        38  & 26 & \&                  \\ \hline
+        39  & 27 & '                   \\ \hline
+        40  & 28 & (                   \\ \hline
+        41  & 29 & )                   \\ \hline
+        42  & 2A & *                   \\ \hline
+        43  & 2B & +                   \\ \hline
+        44  & 2C & ,                   \\ \hline
+        45  & 2D & -                   \\ \hline
+        46  & 2E & .                   \\ \hline
+        47  & 2F & /                   \\ \hline
+        48  & 30 & 0                   \\ \hline
+        49  & 31 & 1                   \\ \hline
+        50  & 32 & 2                   \\ \hline
+        51  & 33 & 3                   \\ \hline
+        52  & 34 & 4                   \\ \hline
+        53  & 35 & 5                   \\ \hline
+        54  & 36 & 6                   \\ \hline
+        55  & 37 & 7                   \\ \hline
+        56  & 38 & 8                   \\ \hline
+        57  & 39 & 9                   \\ \hline
+        58  & 3A & :                   \\ \hline
+        59  & 3B & ;                   \\ \hline
+        60  & 3C & <                   \\ \hline
+        61  & 3D & =                   \\ \hline
+        62  & 3E & >                   \\ \hline
+        63  & 3F & ?                   \\ \hline
+        
+      \end{tabular}
+    \end{minipage}
+    % 
+    \begin{minipage}[t]{.32\textwidth}
+      \begin{tabular}{ccc}
+        \hline\hline\textbf{DEC} & \textbf{HEX} & \textbf{Simbolo} \\\hline\hline
+        
+        64  & 40 & @                   \\ \hline
+        65  & 41 & A                   \\ \hline
+        66  & 42 & B                   \\ \hline
+        67  & 43 & C                   \\ \hline
+        68  & 44 & D                   \\ \hline
+        69  & 45 & E                   \\ \hline
+        70  & 46 & F                   \\ \hline
+        71  & 47 & G                   \\ \hline
+        72  & 48 & H                   \\ \hline
+        73  & 49 & I                   \\ \hline
+        74  & 4A & J                   \\ \hline
+        75  & 4B & K                   \\ \hline
+        76  & 4C & L                   \\ \hline
+        77  & 4D & M                   \\ \hline
+        78  & 4E & N                   \\ \hline
+        79  & 4F & O                   \\ \hline
+        80  & 50 & P                   \\ \hline
+        81  & 51 & Q                   \\ \hline
+        82  & 52 & R                   \\ \hline
+        83  & 53 & S                   \\ \hline
+        84  & 54 & T                   \\ \hline
+        85  & 55 & U                   \\ \hline
+        86  & 56 & V                   \\ \hline
+        87  & 57 & W                   \\ \hline
+        88  & 58 & X                   \\ \hline
+        89  & 59 & Y                   \\ \hline
+        90  & 5A & Z                   \\ \hline
+        91  & 5B & [                   \\ \hline
+        92  & 5C & \                   \\ \hline
+        93  & 5D & ]                   \\ \hline
+        94  & 5E & \textasciicircum{}  \\ \hline
+        95  & 5F & \underline{ }       \\ \hline
+        
+      \end{tabular}
+    \end{minipage}
+    % 
+    \begin{minipage}[t]{.32\textwidth}
+      \begin{tabular}{ccc}
+        \hline\hline\textbf{DEC} & \textbf{HEX} & \textbf{Simbolo} \\\hline\hline
+        96  & 60 & `                   \\ \hline
+        97  & 61 & a                   \\ \hline
+        98  & 62 & b                   \\ \hline
+        99  & 63 & c                   \\ \hline
+        100 & 64 & d                   \\ \hline
+        101 & 65 & e                   \\ \hline
+        102 & 66 & f                   \\ \hline
+        103 & 67 & g                   \\ \hline
+        104 & 68 & h                   \\ \hline
+        105 & 69 & i                   \\ \hline
+        106 & 6A & j                   \\ \hline
+        107 & 6B & k                   \\ \hline
+        108 & 6C & l                   \\ \hline
+        109 & 6D & m                   \\ \hline
+        110 & 6E & n                   \\ \hline
+        111 & 6F & o                   \\ \hline
+        112 & 70 & p                   \\ \hline
+        113 & 71 & q                   \\ \hline
+        114 & 72 & r                   \\ \hline
+        115 & 73 & s                   \\ \hline
+        116 & 74 & t                   \\ \hline
+        117 & 75 & u                   \\ \hline
+        118 & 76 & v                   \\ \hline
+        119 & 77 & w                   \\ \hline
+        120 & 78 & x                   \\ \hline
+        121 & 79 & y                   \\ \hline
+        122 & 7A & z                   \\ \hline
+        123 & 7B & \{                  \\ \hline
+        124 & 7C & |                   \\ \hline
+        125 & 7D & \}                  \\ \hline
+        126 & 7E & \textasciitilde{}   \\ \hline
+        127 & 7F &                     \\ \hline
+        
+        
+      \end{tabular}
+      
+    \end{minipage}
+    
+  \end{table}
+  
+  
+} % \footnotesize
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../main-dissertacao"
+%%% coding: utf-8
+%%% End:
+
