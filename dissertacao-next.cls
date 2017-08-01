@@ -37,7 +37,6 @@
 \RequirePackage[subfigure]{tocloft} % faz sumários e listas
 \RequirePackage{makeidx} % essencial %% faz o ÍNDICE
 \RequirePackage{tikz} %
-\RequirePackage{indentfirst} % Indenta o primeiro parágrafos de cada seção/capitulo
 \RequirePackage{float}
 \RequirePackage{graphicx} %
 %%------------------------------------------------------------------------------
@@ -74,7 +73,7 @@ verbose=true%
 
 \DeclareOption*{} % para tirar warnings de options passadas pela classe tdiinpe para report
 
-\gdef\@docSemFormatacaoCapitulo{true}
+\gdef\@docSemFormatacaoCapitulo{false}
 \gdef\@includeFCnotaTD{false}
 \gdef\@includeFC{true}
 \gdef\@includeFA{true}
