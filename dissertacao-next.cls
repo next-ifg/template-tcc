@@ -80,8 +80,8 @@ verbose=true%
 \gdef\@folhaembranco{true}
 \gdef\@tipocitacao{alf}
 
-\DeclareOption{TCCTeseDissertacao}{%
-  \typeout{>>> Option: : TCCTeseDissertacao}
+\DeclareOption{TCC}{%
+  \typeout{>>> Option: : TCC}
   % Opcoes definidas acima
 }
 
